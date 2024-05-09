@@ -29,6 +29,8 @@ class Student extends User{
     }
 }
 
+
+
 export{
     User, Student
 }
