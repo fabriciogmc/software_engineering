@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "@types/pg": "^8.11.6",
     "@types/prompt-sync": "^4.2.3",
+    "mongodb": "^6.6.2",
+    "pg": "^8.11.5",
     "prompt-sync": "^4.2.0"
   }
 }

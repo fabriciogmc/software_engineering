@@ -1,0 +1,24 @@
+Criar database:
+
+use databas_name;
+
+criar coleção:
+
+db.createCollection('users');
+
+inserir usuários:
+
+db.users.insertMany([
+   { nome: "Fabricio", cpf:1122 },
+   { nome: "Jane", cpf:2233}
+]);
+
+Listar usuários:
+
+db.users.find().pretty();
+
+Remover Usuários:
+db.users.deleteMany({});
+
+
+default port: 27017;
