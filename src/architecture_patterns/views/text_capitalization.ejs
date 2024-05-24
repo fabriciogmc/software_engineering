@@ -1,0 +1,11 @@
+<%# A linha abaixo carrega no template o conteúdo total do arquivo header.ejs%>
+<%-include('base_header') -%>
+
+<form method="post" action="/capitalize">
+    Text For capitalization: <input name="text_input"/>
+    <input type="submit" >
+</form>
+    
+<%# Includes the entire contents of footer.ejs %>
+<%- include('base_footer') -%>
+

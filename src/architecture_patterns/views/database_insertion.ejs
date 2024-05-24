@@ -1,0 +1,13 @@
+<%# Loads the entire contents of header.ejs%>
+<%-include('base_header') -%>
+
+<form method="post" action="/persist">
+    Data to persist in database: <br/>
+    Name: <input name="name"/><br/>
+    CPF: <input name="cpf"/><br/>
+    <input type="submit" >
+</form>
+    
+<%# Includes the entire contents of footer.ejs %>
+<%- include('base_footer') -%>
+
